@@ -11,3 +11,9 @@ describe('My first test', () => {
       .should('have.value', 'fake@email.com')
   })
 })
+
+describe('My second test who should fail and get message on slack', () => {
+  it('Visits the kitchen sink', () => {
+    cy.visit('/')
+  })
+})
