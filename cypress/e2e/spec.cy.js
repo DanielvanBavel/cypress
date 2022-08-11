@@ -12,8 +12,8 @@ describe('My first test', () => {
   })
 })
 
-describe('My second test who should fail and get message on slack', () => {
-  it('Visits the kitchen sink', () => {
-    cy.visit('/')
-  })
-})
+// describe('My second test who should fail and get message on slack', () => {
+//   it('Visits the kitchen sink', () => {
+//     cy.visit('/')
+//   })
+// })
